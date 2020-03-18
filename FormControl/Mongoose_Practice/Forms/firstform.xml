@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="firstform" Scope="1" ScopeName="[NULL]">
+         <Caption />
+         <Type>0</Type>
+         <StandardOperations>1019</StandardOperations>
+         <Flags>1048778</Flags>
+         <Height>6</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>50</Width>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>11</PaneZeroSize>
+         <PrimaryDataSource>firstform(OBJNAME(ofirstform))</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <Components>
+            <Component Name="firstEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>1</TopPos>
+               <LeftPos>24</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>C(firstStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.first</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format />
+            </Component>
+            <Component Name="firstGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>7</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.first</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format />
+            </Component>
+            <Component Name="firstStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>1.1</TopPos>
+               <LeftPos>3</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+            </Component>
+            <Component Name="FormCollectionGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects</DataSource>
+               <Binding>3</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="secondEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>2.5</TopPos>
+               <LeftPos>24</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>C(secondStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.second</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format />
+            </Component>
+            <Component Name="secondGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>7</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.second</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format />
+            </Component>
+            <Component Name="secondStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>2.6</TopPos>
+               <LeftPos>3</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+            </Component>
+         </Components>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>
