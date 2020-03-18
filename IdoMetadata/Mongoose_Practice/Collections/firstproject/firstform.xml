@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObjectStudioExport Version="060000">
+   <IDODefinitions>
+      <IDODefinition Name="firstform">
+         <ServerName>firstproject</ServerName>
+         <LabelStringID>ofirstform</LabelStringID>
+         <RevisionNo>1</RevisionNo>
+         <RevisionDate>2020-03-18T16:49:12</RevisionDate>
+         <ReplaceFlag>0</ReplaceFlag>
+         <QuoteTableAliases>0</QuoteTableAliases>
+         <Tables>
+            <Table Name="firstform" Alias="firstform" Type="PRIMARY" />
+         </Tables>
+         <Methods />
+         <Properties>
+            <Property Name="CreateDate" Key="0" Binding="BOUND" Sequence="5">
+               <PseudoKeyFlag>0</PseudoKeyFlag>
+               <BoundToColumn>CreateDate</BoundToColumn>
+               <ColumnTableAlias>firstform</ColumnTableAlias>
+               <PropertyAttributes>
+                  <ColumnDataType>CurrentDateType</ColumnDataType>
+                  <DataType>Date</DataType>
+                  <IsReadOnly>1</IsReadOnly>
+               </PropertyAttributes>
+            </Property>
+            <Property Name="CreatedBy" Key="0" Binding="BOUND" Sequence="3">
+               <PseudoKeyFlag>0</PseudoKeyFlag>
+               <BoundToColumn>CreatedBy</BoundToColumn>
+               <ColumnTableAlias>firstform</ColumnTableAlias>
+               <PropertyAttributes>
+                  <ColumnDataType>UsernameType</ColumnDataType>
+                  <DataLength>128</DataLength>
+                  <DataType>String</DataType>
+                  <IsReadOnly>1</IsReadOnly>
+               </PropertyAttributes>
+            </Property>
+            <Property Name="first" Key="1" Binding="BOUND" Sequence="1">
+               <PseudoKeyFlag>0</PseudoKeyFlag>
+               <BoundToColumn>first</BoundToColumn>
+               <ColumnTableAlias>firstform</ColumnTableAlias>
+               <PropertyAttributes>
+                  <ColumnDataType>nvarchar</ColumnDataType>
+                  <DataLength>10</DataLength>
+                  <DataType>String</DataType>
+                  <IsRequired>1</IsRequired>
+               </PropertyAttributes>
+            </Property>
+            <Property Name="InWorkflow" Key="0" Binding="BOUND" Sequence="9">
+               <PseudoKeyFlag>0</PseudoKeyFlag>
+               <BoundToColumn>InWorkflow</BoundToColumn>
+               <ColumnTableAlias>firstform</ColumnTableAlias>
+               <PropertyAttributes>
+                  <ColumnDataType>FlagNyType</ColumnDataType>
+                  <DataType>Byte</DataType>
+                  <IsRORecordFlag>1</IsRORecordFlag>
+               </PropertyAttributes>
+            </Property>
+            <Property Name="NoteExistsFlag" Key="0" Binding="BOUND" Sequence="8">
+               <PseudoKeyFlag>0</PseudoKeyFlag>
+               <BoundToColumn>NoteExistsFlag</BoundToColumn>
+               <ColumnTableAlias>firstform</ColumnTableAlias>
+               <PropertyAttributes>
+                  <ColumnDataType>FlagNyType</ColumnDataType>
+                  <DataType>Byte</DataType>
+               </PropertyAttributes>
+            </Property>
+            <Property Name="RecordDate" Key="0" Binding="BOUND" Sequence="6">
+               <PseudoKeyFlag>0</PseudoKeyFlag>
+               <BoundToColumn>RecordDate</BoundToColumn>
+               <ColumnTableAlias>firstform</ColumnTableAlias>
+               <PropertyAttributes>
+                  <ColumnDataType>CurrentDateType</ColumnDataType>
+                  <DataType>Date</DataType>
+                  <IsReadOnly>1</IsReadOnly>
+               </PropertyAttributes>
+            </Property>
+            <Property Name="RowPointer" Key="0" Binding="BOUND" Sequence="7">
+               <PseudoKeyFlag>0</PseudoKeyFlag>
+               <BoundToColumn>RowPointer</BoundToColumn>
+               <ColumnTableAlias>firstform</ColumnTableAlias>
+               <PropertyAttributes>
+                  <ColumnDataType>RowPointerType</ColumnDataType>
+                  <DataType>GUID</DataType>
+                  <IsReadOnly>1</IsReadOnly>
+               </PropertyAttributes>
+            </Property>
+            <Property Name="second" Key="0" Binding="BOUND" Sequence="2">
+               <PseudoKeyFlag>0</PseudoKeyFlag>
+               <BoundToColumn>second</BoundToColumn>
+               <ColumnTableAlias>firstform</ColumnTableAlias>
+               <PropertyAttributes>
+                  <ColumnDataType>nvarchar</ColumnDataType>
+                  <DataLength>10</DataLength>
+                  <DataType>String</DataType>
+               </PropertyAttributes>
+            </Property>
+            <Property Name="UpdatedBy" Key="0" Binding="BOUND" Sequence="4">
+               <PseudoKeyFlag>0</PseudoKeyFlag>
+               <BoundToColumn>UpdatedBy</BoundToColumn>
+               <ColumnTableAlias>firstform</ColumnTableAlias>
+               <PropertyAttributes>
+                  <ColumnDataType>UsernameType</ColumnDataType>
+                  <DataLength>128</DataLength>
+                  <DataType>String</DataType>
+                  <IsReadOnly>1</IsReadOnly>
+               </PropertyAttributes>
+            </Property>
+         </Properties>
+         <Rules />
+      </IDODefinition>
+   </IDODefinitions>
+</ObjectStudioExport>
